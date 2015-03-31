@@ -1,0 +1,13 @@
+<h1>All Robots</h1>
+
+<% @robots.each do |robot| %>
+  <img src="<%= robot.avatar %>">
+  <h2><a href="/robots/<%= robot.id %>"><%= robot.name %></a></h2>
+  <a href="/robots/<%= robot.id %>/edit">edit</a>
+  <form action="/robots/<%= robot.id %>" method="POST">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="delete"/>
+  </form>
+<% end %>
+
+<a href="/robots/new">New Robot</a>

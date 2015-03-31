@@ -1,0 +1,19 @@
+---
+robots:
+- id: 2
+  name: Fred
+  city: Denver
+  state: Co
+  avatar: https://robohash.org/fred.png
+  birthday: June
+  date_hired: July
+  department: Sales
+- id: 3
+  name: Kenny
+  city: Denver
+  state: CO
+  avatar: https://robohash.org/kenny
+  birthday: June
+  date_hired: July
+  department: Management
+total: 3
