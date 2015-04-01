@@ -23,7 +23,7 @@ robots:
   avatar: http://robohash.org/perspiciatisoccaecatiex.png?size=300x300
   birthday: birthday
   date_hired: date hired
-  department: department
+  department: Sales
 - id: 6
   name: James
   city: Beahanville
@@ -40,4 +40,28 @@ robots:
   birthday: 2015-02-10
   date_hired: 2015-01-06
   department: Electronics & Computers
-total: 7
+- id: 8
+  name: Jessica
+  city: West Jeramiemouth
+  state: Arkansas
+  avatar: http://robohash.org/istevitaeblanditiis.png?size=300x300
+  birthday: 2014-04-09
+  date_hired: 2014-10-10
+  department: Automotive
+- id: 9
+  name: Liz
+  city: Lake Henryfurt
+  state: Oregon
+  avatar: http://robohash.org/dolorillominima.png?size=300x300
+  birthday: 2014-01-24
+  date_hired: 2015-03-14
+  department: Grocery, Industrial & Kids
+- id: 10
+  name: Cristy
+  city: New Karina
+  state: Texas
+  avatar: http://robohash.org/molestiasquiexcepturi.png?size=300x300
+  birthday: 2013-10-05
+  date_hired: 2014-05-21
+  department: Games & Tools
+total: 10
