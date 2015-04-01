@@ -1,0 +1,25 @@
+body {
+  background-color: #D0D3DF;
+}
+
+a {
+  color: #000;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: #FFF;
+}
+
+.robot_profiles {
+  background-color: #70777E;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.robot_profiles img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 2px solid #000;
+}

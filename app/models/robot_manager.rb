@@ -14,12 +14,12 @@ class RobotManager
       database['total'] += 1
       database['robots'] << { "id" => database['total'], 
                               "name" => robot[:name],
-                              "city" => robot[:city], 
-                              "state" => robot[:state],
-                              "avatar" => robot[:avatar],
-                              "birthday" => robot[:birthday],
-                              "date_hired" => robot[:date_hired],
-                              "department" => robot[:department]
+                              "city" => Faker::Address.city, 
+                              "state" => Faker::Address.state,
+                              "avatar" => Faker::Avatar.image,
+                              "birthday" => Faker::Date.backward(700),
+                              "date_hired" => Faker::Date.backward(365),
+                              "department" => Faker::Commerce.department
                             }
     end
   end
