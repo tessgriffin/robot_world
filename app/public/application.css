@@ -12,12 +12,19 @@ a {
 .container {
   margin-top: 20px;
   background-color: rgba(255, 255, 255, .6);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .robot_profiles {
   background-color: #70777E;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 15px;
+  width: 95%;
+}
+
+.robot_profiles h3 {
+  margin-top: 5px;
 }
 
 .robot_profiles img {
@@ -38,4 +45,13 @@ a {
 
 .dashboard {
   text-align: center;
+}
+
+.col-sm-4 {
+  width: 33%;
+  padding: 7px;
+}
+
+.row {
+  margin-left: 2px;
 }

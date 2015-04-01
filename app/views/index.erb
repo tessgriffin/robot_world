@@ -1,4 +1,5 @@
 <h1>All Worker Drones</h1>
+<h2>Population: <%= @population %></h2>
 
 <div class="row">
   <% @robots.each do |robot| %>
@@ -10,7 +11,7 @@
         <a class="btn btn-default" role="button" href="/robots/<%= robot.id %>/edit">edit</a>
         <form action="/robots/<%= robot.id %>" method="POST">
           <input type="hidden" name="_method" value="DELETE">
-          <input class="btn btn-default" type="submit" value="delete"/>
+          <input class="btn btn-default" type="submit" value="terminate"/>
         </form>
       </div>
     </div>

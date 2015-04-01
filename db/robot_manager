@@ -31,7 +31,7 @@ robots:
   avatar: http://robohash.org/quilaudantiumest.png?size=300x300
   birthday: 2014-08-09
   date_hired: 2014-06-30
-  department: Games, Home & Movies
+  department: Games
 - id: 7
   name: George
   city: East Estevanburgh
@@ -39,7 +39,7 @@ robots:
   avatar: http://robohash.org/oditaperiamfacere.png?size=300x300
   birthday: 2015-02-10
   date_hired: 2015-01-06
-  department: Electronics & Computers
+  department: Games
 - id: 8
   name: Jessica
   city: West Jeramiemouth
@@ -47,7 +47,7 @@ robots:
   avatar: http://robohash.org/istevitaeblanditiis.png?size=300x300
   birthday: 2014-04-09
   date_hired: 2014-10-10
-  department: Automotive
+  department: Baby
 - id: 9
   name: Liz
   city: Lake Henryfurt
@@ -55,7 +55,7 @@ robots:
   avatar: http://robohash.org/dolorillominima.png?size=300x300
   birthday: 2014-01-24
   date_hired: 2015-03-14
-  department: Grocery, Industrial & Kids
+  department: Kids
 - id: 10
   name: Cristy
   city: New Karina
@@ -63,5 +63,21 @@ robots:
   avatar: http://robohash.org/molestiasquiexcepturi.png?size=300x300
   birthday: 2013-10-05
   date_hired: 2014-05-21
-  department: Games & Tools
-total: 10
+  department: Games
+- id: 11
+  name: Tyler
+  city: Dixieburgh
+  state: California
+  avatar: http://robohash.org/repellenduscupiditateomnis.png?size=300x300
+  birthday: 2013-09-12
+  date_hired: 2015-02-09
+  department: Shoes
+- id: 13
+  name: William
+  city: Vallieport
+  state: Texas
+  avatar: http://robohash.org/aliasnecessitatibusillo.png?size=300x300
+  birthday: 2013-07-05
+  date_hired: 2014-04-23
+  department: Clothing
+total: 13

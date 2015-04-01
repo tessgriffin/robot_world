@@ -1,10 +1,13 @@
 require 'yaml/store'
-require 'models/robot'
 
 class RobotManager
 
   def self.database
-    @database ||= YAML::Store.new("db/robot_manager")
+    if ENV["ROBOT_MANAGER_ENV"] == 'test'
+      @database ||= YAML::Store.new("db/robot_manager_test")
+    else
+      @database ||= YAML::Store.new("db/robot_manager")
+    end
   end
 
   def self.create(robot)
@@ -28,6 +31,10 @@ class RobotManager
     database.transaction do
       database['robots'] || []
     end
+  end
+
+  def self.population
+    raw_robots.count
   end
 
   def self.all
@@ -58,6 +65,13 @@ class RobotManager
   def self.delete(id)
     database.transaction do |db|
       db['robots'].delete_if { |robot| robot["id"] == id }
+    end
+  end
+
+  def self.delete_all
+    database.transaction do
+      database['robots'] = []
+      database['total'] = 0
     end
   end
 end

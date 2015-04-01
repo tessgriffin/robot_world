@@ -1,8 +1,4 @@
-require 'models/robot_manager'
-
 class RobotWorldApp < Sinatra::Base
-  set :root, File.join(File.dirname(__FILE__), '..')
-  set :method_override, true
 
   get '/' do
     erb :dashboard
@@ -10,6 +6,7 @@ class RobotWorldApp < Sinatra::Base
 
   get '/robots' do
     @robots = RobotManager.all
+    @population = RobotManager.population
     erb :index
   end
 
