@@ -29,4 +29,31 @@ class RobotManagerTest < Minitest::Test
 
     assert_equal "Fred2", robot.name
   end
+
+  def test_it_can_find_all_robots
+    create_robots(5)
+    robots = RobotManager.all
+
+    assert_equal 5, robots.count
+  end
+
+  def test_it_can_update_a_robot
+    create_robots(5)
+    robot = RobotManager.find(4)
+
+    RobotManager.update(4, {name: "boo"})
+    robot_new = RobotManager.find(4)
+
+    assert_equal "boo", robot_new.name
+  end
+
+  def test_it_can_delete_a_robot
+    create_robots(10)
+    assert_equal 10, RobotManager.all.count
+
+    RobotManager.delete(3)
+    robots = RobotManager.all
+
+    assert_equal 9, robots.count
+  end
 end
