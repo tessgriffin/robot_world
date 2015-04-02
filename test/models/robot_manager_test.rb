@@ -1,6 +1,6 @@
 require_relative '../test_helper'
 
-class RobotManagerTest < ModelTest
+class RobotManagerTest < Minitest::Test
   def create_robots(num)
     num.times do |x|
       RobotManager.create({ name:       "Fred#{x}", 

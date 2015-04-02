@@ -1,6 +1,6 @@
 require_relative '../test_helper'
 
-class RobotTest < ModelTest
+class RobotTest < Minitest::Test
   def test_assigns_attributes_correctly
     robot = Robot.new({ "id"         => 1,
                         "name"       => "a name", 

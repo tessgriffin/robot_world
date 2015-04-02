@@ -21,7 +21,6 @@ class RobotWorldApp < Sinatra::Base
 
   get '/robots/:id' do |id|
     @robot = RobotManager.find(id.to_i)
-    p @robot
     erb :show
   end
 

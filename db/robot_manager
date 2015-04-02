@@ -80,4 +80,36 @@ robots:
   birthday: 2013-07-05
   date_hired: 2014-04-23
   department: Clothing
-total: 13
+- id: 14
+  name: Tom
+  city: Shawnaview
+  state: Virginia
+  avatar: http://robohash.org/suntexcepturia.png?size=300x300
+  birthday: 2014-01-13
+  date_hired: 2014-11-09
+  department: Movies & Home
+- id: 15
+  name: Kyle
+  city: North Ezraburgh
+  state: Iowa
+  avatar: http://robohash.org/modivelquo.png?size=300x300
+  birthday: 2014-05-09
+  date_hired: 2014-09-29
+  department: Kids, Beauty & Clothing
+- id: 16
+  name: Mary Ann
+  city: Laishamouth
+  state: South Carolina
+  avatar: http://robohash.org/quaeratfacereest.png?size=300x300
+  birthday: 2015-03-08
+  date_hired: 2014-11-28
+  department: Electronics & Movies
+- id: 17
+  name: Beth
+  city: West Bryceville
+  state: Mississippi
+  avatar: http://robohash.org/etplaceatillo.png?size=300x300
+  birthday: 2015-01-09
+  date_hired: 2015-01-24
+  department: Garden
+total: 17
